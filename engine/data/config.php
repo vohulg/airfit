@@ -28,7 +28,9 @@ $config = array (
 
 'langs' => 'Russian',
 
-'skin' => 'AirfitTemplate',
+
+'skin' => 'AirFitTemp',
+
 
 'allow_admin_wysiwyg' => '2',
 
