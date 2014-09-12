@@ -4,13 +4,13 @@
 
 $config = array (
 
-'home_title' => 'Arttravel - время для отдыха должно быть всегда',
+'home_title' => 'Airfit - воздушная гимнастика',
 
 'http_home_url' => 'http://dle100/',
 
 'charset' => 'windows-1251',
 
-'description' => 'авиатурагенство',
+'description' => 'йога в воздухе',
 
 'keywords' => 'DataLife, Engine, CMS, PHP движок',
 
@@ -28,7 +28,7 @@ $config = array (
 
 'langs' => 'Russian',
 
-'skin' => 'ArtTemplate',
+'skin' => 'AirfitTemplate',
 
 'allow_admin_wysiwyg' => '2',
 
