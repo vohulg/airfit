@@ -36,7 +36,10 @@
             {include file="topmenu.tpl"}
         </div>
     </div> <!-- vh-header -->
-    <div class="vh-slider">   </div> <!-- vh-slider -->
+    <div class="vh-slider-wrapper">  
+    <div class="vh-slider-container"> </div>
+    </div> <!-- vh-slider -->
+    
     <div class="vh-content-wrapper">   </div> <!-- vh-content -->
 
 </div> <!-- main wrapper  -->
