@@ -13,12 +13,28 @@
 {AJAX}
 <div id="vh-main-wrapper">
     <div class="vh-top-line"> 
-    <div class="vh-wrapper-990"> 
-    
-    </div> <!-- wrapper-990 -->
+         <div class="vh-wrapper-990"> 
+             <div class="vh-top-phone"> <span>+7 (707) 789 30 56</span> </div>
+                          
+             
+             
+             <div class="slogan"> Растяжки, Силовые упражнения и детские качели в одном гамаке </div>
+              
+             <div class="z-phone"> 
+                <a href="#">
+                <div class="callme_view"> Заказать звонок </div>
+                </a>
+             </div>
+             <div class="clear"> </div>
+         
+         </div> <!-- wrapper-990 -->
     </div> <!-- top-line -->
-    <div class="vh-header">
     
+    <div class="vhg-header">   
+        <div class="vh-wrapper-990">
+            <a class="vh-logo" href="/"><img alt="Йога и фитнес в воздухе" src="{THEME}/images/Logotip_2.jpg"  ></a>
+            {include file="topmenu.tpl"}
+        </div>
     </div> <!-- vh-header -->
     <div class="vh-slider">   </div> <!-- vh-slider -->
     <div class="vh-content-wrapper">   </div> <!-- vh-content -->

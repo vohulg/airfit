@@ -1,3 +1,7 @@
+.clear{
+    clear: both;
+}
+
 #vh-main-wrapper {
      width: 100%;
      display: block;
@@ -5,37 +9,127 @@
     
 }
 
-// ==============top line====================
+
+/* ==============top line====================*/
+
 .vh-top-line {
+    
     height: 40px;
     width: 100%;
-   // background-color: #297cd3;
-    background-color:#4d4d4d;
-    //border: 1px solid yellow;
-}
+    background: #6d4595;
+} 
 
 .vh-wrapper-990 {
    width: 990px;
-   margin:  0 auto;
-   height: 50px;
-    
+   margin:  0 auto;  
 }
 
-//======================================
+.z-phone{
+    width: auto;
+    float: right;    
+}
+.z-phone a {
+    text-decoration: none;
+    color: #ffdd2e;
+    font: 14px/19px "Open Sans", sans-serif;
+}
+.z-phone a div {
+    padding: 10.5px 0px!important;
+    width: 195px;
+    text-align: center;
+    /*background: #3c3c3c; */
+    background: #6900a1!important;
+}
+.z-phone a:hover div {
+    background: #444444;
+    color: #ffdd2e;
+}
 
-.vh-header {
+.slogan{
+    float: left;
+    padding: 10.5px 30px!important;
+    margin-left: 30px;
+    color: #fff;
+    font: 14px/19px "Open Sans", sans-serif;
+}
+
+.vh-top-phone {
+    float: left;
+    font: 14px/19px "Open Sans", sans-serif;
+    /*background: #3c3c3c!important; */
+    background: #6900a1!important;
+    padding: 10.5px 25px;
+    color:#fff;
+}
+.vh-top-phone span{
+    background:url("../images/ico-phone.png") left center no-repeat ;
+    padding: 9px 0px 9px 40px;
+   
+    
+}
+/*========header======================================*/
+
+.vhg-header {
     padding: 14px 0px;
     background: #f2f2f2;
-    height:  189px;
-    //border: 1px solid red; 
+    height: 60px;
+}
+
+.vh-logo {    
+    float: left;
+}
+
+.main-menu{
+    float: right;
+      margin: 10px 0px;
+      list-style: none;
+}
+.main-menu li{
+    float: left;
+    margin-left: 30px;
     
 }
+
+.main-menu li.active a div{
+    background: #ffca0f;
+    text-shadow: 0 1px 0 #fff022;
+    border: solid #fff026;
+    border-width: 1px 1px 0 1px;
+}
+.main-menu li.active a:hover div{
+    background: #ffca0f;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color:#4d4d4d;
+    text-transform: uppercase;
+    font-weight: 700;
+    font: bold 14px/18px "Open Sans", sans-serif;
+}
+.main-menu li a div{
+    
+    background: #ffdd2e;
+    padding: 10.5px 30px;
+    border: solid #fff650;
+border-width: 1px 1px 0 1px;
+box-shadow: 0 1px 1px 0px #B29B23;
+border-radius: 5px;
+text-shadow: 0 1px 0 #fff650;
+}
+.main-menu li a:hover div{
+    background: #ffd500;
+}
+
+
+/*========================================*/
+
 
 .vh-slider {
     padding: 30px 0px 58px 0px;
    height:  390px;
     background-color:#fff;
-    border: 1px solid red;
+    //border: 1px solid red;
     
 }
 
@@ -46,3 +140,4 @@
     box-shadow: 0 0 5px rgba(0,0,0,.1);
      height:  390px;
 }
+
