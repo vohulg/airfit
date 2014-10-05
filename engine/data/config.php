@@ -4,9 +4,9 @@
 
 $config = array (
 
-'home_title' => 'Arttravel - время для отдыха должно быть всегда',
+'home_title' => 'AirFit - фитнес упражнения на тренажере гамак',
 
-'http_home_url' => 'http://dle100/',
+'http_home_url' => 'http://airfit/',
 
 'charset' => 'windows-1251',
 
@@ -14,7 +14,7 @@ $config = array (
 
 'keywords' => 'DataLife, Engine, CMS, PHP движок',
 
-'short_title' => 'Демонстрационный сайт',
+'short_title' => 'фитнес и йога в воздухе',
 
 'start_site' => '1',
 
@@ -28,7 +28,7 @@ $config = array (
 
 'langs' => 'Russian',
 
-'skin' => 'AirFitTemp',
+'skin' => 'AirFitTemp-2',
 
 'allow_admin_wysiwyg' => '2',
 

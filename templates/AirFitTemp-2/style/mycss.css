@@ -1,0 +1,48 @@
+#vh-main-wrapper {
+     width: 100%;
+     display: block;
+     background-color: #333;
+    
+}
+
+// ==============top line====================
+.vh-top-line {
+    height: 40px;
+    width: 100%;
+   // background-color: #297cd3;
+    background-color:#4d4d4d;
+    //border: 1px solid yellow;
+}
+
+.vh-wrapper-990 {
+   width: 990px;
+   margin:  0 auto;
+   height: 50px;
+    
+}
+
+//======================================
+
+.vh-header {
+    padding: 14px 0px;
+    background: #f2f2f2;
+    height:  189px;
+    //border: 1px solid red; 
+    
+}
+
+.vh-slider {
+    padding: 30px 0px 58px 0px;
+   height:  390px;
+    background-color:#fff;
+    border: 1px solid red;
+    
+}
+
+.vh-content-wrapper {
+    
+    background:#f6f6f6 no-repeat center;
+    padding: 30px 0px 30px 0px;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+     height:  390px;
+}

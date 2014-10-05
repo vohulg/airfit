@@ -11,8 +11,10 @@
 </head>
 <body>
 {AJAX}
-
+<div id="banner">
+        </div>
 <div class="wrapper">
+    
 	<div id="header" class="dpad">
 		<h1 ><a  href="/index.php" title="AirFit">AIRFIT</a></h1>
 		<form action="" name="searchform" method="post">
@@ -24,12 +26,15 @@
 			</ul>
 		</form>
 		<div class="headlinks">
+                    
+                    <!--
 			<ul class="reset">
 				<li><a href="/index.php">Главная</a></li>
 				[group=5]<li><a href="/index.php?do=register">Регистрация</a></li>[/group]
 				<li><a href="/index.php?do=feedback">Контакты</a></li>
 				<li><a href="/index.php?do=rules">Правила</a></li>
 			</ul>
+                    -->
 		</div>
 	</div>
 	<div class="himage"><div class="himage"><div class="himage ">
