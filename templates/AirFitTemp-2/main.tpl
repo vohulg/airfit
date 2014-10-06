@@ -8,7 +8,9 @@
 
 <link media="screen" href="{THEME}/style/engine.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="{THEME}/js/libs.js"></script>
+
 <script type="text/javascript" src="{THEME}/js/vh-libs.js"></script>
+
 </head>
 <body>
 {AJAX}
@@ -38,6 +40,7 @@
         </div>
     </div> <!-- vh-header -->
     <div class="vh-slider-wrapper">  
+
         <div class="vh-slider-container"> </div>
     </div> <!-- vh-slider -->
     
@@ -54,6 +57,7 @@
         </div>
     
     </div> <!-- vh-content -->
+
 
 </div> <!-- main wrapper  -->
 </body>

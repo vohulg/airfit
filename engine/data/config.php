@@ -4,7 +4,9 @@
 
 $config = array (
 
+
 'home_title' => 'Airfit - воздушная гимнастика',
+
 
 'http_home_url' => 'http://airfit/',
 
@@ -14,7 +16,9 @@ $config = array (
 
 'keywords' => 'DataLife, Engine, CMS, PHP движок',
 
+
 'short_title' => 'Главная',
+
 
 'start_site' => '1',
 

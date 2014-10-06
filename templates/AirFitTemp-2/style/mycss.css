@@ -86,7 +86,9 @@
 }
 .main-menu li{
     float: left;
+
     margin-left: 10px;
+
     
 }
 
@@ -110,7 +112,9 @@
 .main-menu li a div{
     
     background: #ffdd2e;
+
     padding: 10.5px 20px;
+
     border: solid #fff650;
 border-width: 1px 1px 0 1px;
 box-shadow: 0 1px 1px 0px #B29B23;
@@ -125,7 +129,9 @@ text-shadow: 0 1px 0 #fff650;
 /*============slider============================*/
 
 .vh-slider-wrapper {
+
     padding: 18px 0px 18px 0px;
+
    height:  210px;
     background-color:#fff;
     box-shadow: 0 0 5px rgba(0,0,0,.1)
@@ -158,6 +164,7 @@ text-shadow: 0 1px 0 #fff650;
     background:#f6f6f6 no-repeat center;
     padding: 30px 0px 30px 0px;
     box-shadow: 0 0 5px rgba(0,0,0,.1);
+
     
 }
 
@@ -201,3 +208,7 @@ margin-right: 60px;
     width:735px ;
     
 }
+
+
+
+
