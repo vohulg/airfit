@@ -6,7 +6,7 @@ $config = array (
 
 'home_title' => 'Airfit - воздушная гимнастика',
 
-'http_home_url' => 'http://dle100/',
+'http_home_url' => 'http://airfit/',
 
 'charset' => 'windows-1251',
 
@@ -14,7 +14,7 @@ $config = array (
 
 'keywords' => 'DataLife, Engine, CMS, PHP движок',
 
-'short_title' => 'Демонстрационный сайт',
+'short_title' => 'Главная',
 
 'start_site' => '1',
 
@@ -28,9 +28,7 @@ $config = array (
 
 'langs' => 'Russian',
 
-
-'skin' => 'AirFitTemp',
-
+'skin' => 'AirFitTemp-2',
 
 'allow_admin_wysiwyg' => '2',
 
