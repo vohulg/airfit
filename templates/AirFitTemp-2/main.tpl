@@ -49,14 +49,24 @@
             <div class="vh-wrapper-990">
                 <div class="vh-crumbs">{speedbar} </div>
                 <div class="vh-content-box">
-                  <div class="vh-left-box"> g </div>
-                  <div class="vh-right-box"> {content}</div>
+                  <div class="vh-left-box"> {include file="sidebar.tpl"} </div>
+                  <div class="vh-right-box"> {info}{content}</div>
                   <div class="clear"> </div>
                 </div>
             </div>
         </div>
     
     </div> <!-- vh-content -->
+    
+    <div class="vh-footer-menu">  </div>
+    <div class="vh-footer"> 
+        <div class="vh-wrapper-990">
+            <div class="vh-cop"> © 2014 Центр развития  «AirFit». ИП "Сорокина Мария Владимировна" Свидетельство № 07987655443. Все права защищены. </div>
+            <div class="vh-sitecom"> Создание сайта vk.com/vohulg. +7 701 519 63 02 </div>
+            <div class="clear"> </div>
+        </div>
+            
+    </div>
 
 
 </div> <!-- main wrapper  -->

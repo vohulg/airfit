@@ -102,6 +102,10 @@
     background: #ffca0f;
 }
 
+.main-menu li a:active {
+    background: red;
+}
+
 .main-menu li a {
     text-decoration: none;
     color:#4d4d4d;
@@ -209,6 +213,36 @@ margin-right: 60px;
     
 }
 
+.vh-footer-menu {
+    padding: 23px 0px 37px 0px ;
+    background: #fff;
+    height: 120px;
+    
+}
 
+.vh-footer{
+    padding: 20px 0px;
+    font: 12px/20px "Open Sans", sans-serif;
+}
+
+.vh-cop{
+    color:#fff;
+    width: 480px;
+    float: left;
+}
+.vh-sitecom{
+    float: right;
+    text-align: right;
+    color:#fff;
+}
+
+
+#news-title {
+    
+    font-size: 1.7em ;
+    color:#6d4595;
+    text-transform: uppercase ;
+    //text-decoration: underline;
+}
 
 
