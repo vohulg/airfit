@@ -10,4 +10,7 @@
     </table>
   </div>
 
+<div id="vk_comments"></div>
+<script type="text/javascript">VK.Widgets.Comments("vk_comments", {limit: 5, width: "115", attach: "*"});</script>
+
 
