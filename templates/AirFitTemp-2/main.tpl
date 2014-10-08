@@ -15,7 +15,9 @@
 <link media="screen" href="{THEME}/style/call.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
 
-<script type="text/javascript">  VK.init({apiId: 4581679, onlyWidgets: true});</script>
+<script type="text/javascript"> VK.init({apiId: 4581679, onlyWidgets: true});</script>
+
+
 
 </head>
 <body>
@@ -24,7 +26,7 @@
     <div class="vh-top-line"> 
          <div class="vh-wrapper-990"> 
              <div class="vh-top-phone"> <span>+7 (707) 789 30 56</span> </div>
-                          
+                 <!-- <div><a href="http://www.facebook.com/YogaVvozduhe?fref=ts"><img src="{THEME}/images/fb.jpg" alt="31" border="0" height="30" width=""></a> </div>   -->     
              
              
              <div class="slogan"> Растяжки, Силовые упражнения и детские качели в одном гамаке </div>
@@ -54,6 +56,7 @@
             <div class="vh-wrapper-990">
                 <div class="vh-crumbs">{speedbar} </div>
                 <div class="vh-content-box">
+                    
                   <div class="vh-left-box"> {include file="sidebar.tpl"} </div>
                   <div class="vh-right-box"> {info}{content}</div>
                   <div class="clear"> </div>

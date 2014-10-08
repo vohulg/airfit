@@ -27,7 +27,8 @@
 .z-phone{
     width: auto;
     float: right;   
-    padding: 10.5px 0px!important;
+    padding: 10.5px 15px!important;
+    background: #6900a1!important;
 }
 .z-phone a {
     text-decoration: none;
@@ -256,6 +257,23 @@ margin-right: 60px;
     color: #6d4595;
 }
 
+.vh-sidebar {width: 176px;
+margin: 20px 0px}
+
+.vh-buy {background: #6900a1!important;
+border-radius: 5px;
+padding: 10px 0px;
+color:white;
+height: 50px;
+font-size: 18px;
+text-align: center}
+
+.vh-buy a {
+    color:white;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
 #news-title {
     
     font-size: 16px;
@@ -274,3 +292,37 @@ margin-right: 60px;
     margin: 0px;
 }
 
+.left-menu {
+    list-style: none;
+}
+
+.left-menu li {
+    display: list-item;
+    padding: 2px 0 1px;
+    height: 40px;
+    //background: #ffd500;
+   background:#ffdd2e;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.left-menu a {
+    position: relative;
+display: block;
+
+font: normal 14px/16px UbuntuRegular, Arial, sans-serif;
+color: #fff;
+padding: 5px 8px 5px 18px;
+//background:  #6d4595;;
+
+
+
+
+text-decoration: none;
+color: #4d4d4d;
+text-transform: uppercase;
+font-weight: 700;
+font: bold 14px/18px "Open Sans", sans-serif;
+    
+}
