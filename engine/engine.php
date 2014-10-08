@@ -62,6 +62,9 @@ switch ( $do ) {
 	case "register" :
 		include ENGINE_DIR . '/modules/register.php';
 		break;
+        case "call" :
+                include ENGINE_DIR . '/modules/call.php';
+                break;
 	
 	case "lostpassword" :
 		include ENGINE_DIR . '/modules/lostpassword.php';

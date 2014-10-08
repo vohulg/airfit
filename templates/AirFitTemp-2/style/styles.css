@@ -50,7 +50,8 @@ h1 {
 }
 
 a {
-    color: #398dd8;
+    //color: #398dd8;
+    color:#6d4595;
     text-decoration: none;
 }
 
@@ -672,7 +673,7 @@ table.userstop, table.pm, table.tableform, table.calendar {
     float: left;
     text-transform: uppercase;
     font-size: 1.15em;
-    color: #368fde;
+    color: #6d4595;
 }
 
 .block .btl{
@@ -1224,7 +1225,8 @@ button.fbutton span {
 .mlink {
     font-size: 0.9em;
     overflow: hidden;
-    background: #f0f5f8 url("../images/mlink.png") repeat-x;
+    //background: #f0f5f8 url("../images/mlink.png") repeat-x;
+    
     padding: 0 15px;
     height: 40px;
     border: 1px solid #cbdfe8;
@@ -1378,7 +1380,7 @@ button.fbutton span {
     color: #e0cdf3;
     padding: 10px 15px 10px 60px;
     font-style: italic;
-    background: #96c url("../images/berrors.png") no-repeat;
+    background: #96c ;
 }
 
 .berrors a {

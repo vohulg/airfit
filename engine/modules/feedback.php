@@ -122,7 +122,7 @@ if( ! defined( 'DATALIFEENGINE' ) ) {
 		}
 		
 		if( empty( $email ) OR dle_strlen($email, $config['charset']) > 50 OR @count(explode("@", $email)) != 2) {
-			$stop .= $lang['feed_err_2'];
+			//$stop .= $lang['feed_err_2'];
 		} 
 
 		if( empty( $subject ) OR dle_strlen($subject, $config['charset']) > 200 ) {
@@ -130,7 +130,7 @@ if( ! defined( 'DATALIFEENGINE' ) ) {
 		}
 		
 		if( empty( $message ) OR dle_strlen($message, $config['charset']) > 20000 ) {
-			$stop .= $lang['feed_err_5'];
+			//$stop .= $lang['feed_err_5'];
 		}
 
 		if( $user_group[$member_id['user_group']]['captcha_feedback'] ) {

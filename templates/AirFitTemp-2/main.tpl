@@ -11,6 +11,9 @@
 
 <script type="text/javascript" src="{THEME}/js/vh-libs.js"></script>
 
+<script type="text/javascript" src="{THEME}/js/call.js"></script>
+<link media="screen" href="{THEME}/style/call.css" type="text/css" rel="stylesheet" />
+
 </head>
 <body>
 {AJAX}
@@ -24,9 +27,8 @@
              <div class="slogan"> Растяжки, Силовые упражнения и детские качели в одном гамаке </div>
               
              <div class="z-phone"> 
-                <a href="#">
-                <div class="callme_view"> Заказать звонок </div>
-                </a>
+                               <div class="callme_view"><a class="call-open" href="#">Заказать звонок</a> </div>   
+                
              </div>
              <div class="clear"> </div>
          
@@ -57,8 +59,18 @@
         </div>
     
     </div> <!-- vh-content -->
-    
-    <div class="vh-footer-menu">  </div>
+    <hr id="hr-footer"">
+    <div class="vh-footer-menu"> <div class="vh-wrapper-990"> 
+            <div class="vh-footer-down-menu">
+                <a href="/">Купить гамак</a>
+                |
+                <a href="/">Купить гамак</a>
+                |
+                <a href="/">Купить гамак</a>
+                |
+                <a href="/">Купить гамак</a>
+                
+            </div></div> </div>
     <div class="vh-footer"> 
         <div class="vh-wrapper-990">
             <div class="vh-cop"> © 2014 Центр развития  «AirFit». ИП "Сорокина Мария Владимировна" Свидетельство № 07987655443. Все права защищены. </div>
@@ -70,5 +82,6 @@
 
 
 </div> <!-- main wrapper  -->
+{include file="tcse_mod/call.tpl"}
 </body>
 </html>

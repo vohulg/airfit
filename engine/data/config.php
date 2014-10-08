@@ -4,9 +4,7 @@
 
 $config = array (
 
-
 'home_title' => 'Airfit - воздушная гимнастика',
-
 
 'http_home_url' => 'http://airfit/',
 
@@ -16,9 +14,7 @@ $config = array (
 
 'keywords' => 'DataLife, Engine, CMS, PHP движок',
 
-
 'short_title' => 'Главная',
-
 
 'start_site' => '1',
 
@@ -216,9 +212,9 @@ $config = array (
 
 'files_count' => 'yes',
 
-'admin_mail' => 'admin@dle10',
+'admin_mail' => 'vohulg@gmail.com',
 
-'mail_title' => '',
+'mail_title' => 'AirFit.kz Сообщение с сайта',
 
 'mail_metod' => 'php',
 

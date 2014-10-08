@@ -26,11 +26,12 @@
 
 .z-phone{
     width: auto;
-    float: right;    
+    float: right;   
+    padding: 10.5px 0px!important;
 }
 .z-phone a {
     text-decoration: none;
-    color: #ffdd2e;
+    color: #fff;
     font: 14px/19px "Open Sans", sans-serif;
 }
 .z-phone a div {
@@ -214,9 +215,9 @@ margin-right: 60px;
 }
 
 .vh-footer-menu {
-    padding: 23px 0px 37px 0px ;
+    padding: 10px 0px  ;
     background: #fff;
-    height: 120px;
+    height: 50px;
     
 }
 
@@ -236,13 +237,40 @@ margin-right: 60px;
     color:#fff;
 }
 
+.vh-footer-down-menu {
+    float:right;
+    word-spacing: 6px;
+    font-size: 14px;
+    margin-top: 10px;
+    
+}
+
+.vh-footer-down-menu a{
+    //color: rgb(144, 144, 144);
+    color:black;
+    word-spacing:normal;
+    font: Arial, Helvetica, sans-serif;
+}
+
+.btl a {
+    color: #6d4595;
+}
 
 #news-title {
     
-    font-size: 1.7em ;
+    font-size: 16px;
     color:#6d4595;
     text-transform: uppercase ;
+    padding-bottom: 5px;
+   border-bottom:  1px solid black;
     //text-decoration: underline;
 }
 
+#hr-footer {
+    height: 5px;
+    color: rgb(212, 212, 212);
+    background: rgb(212, 212, 212);
+    border: 0px;
+    margin: 0px;
+}
 

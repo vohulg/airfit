@@ -10,17 +10,12 @@
 		</tr>
 		<tr>
 			<td class="label">
-				Ваш E-Mail:<span class="impot">*</span>
+				Номер вашего телефона (с кодом):<span class="impot">*</span>
 			</td>
 			<td><input type="text" maxlength="35" name="email" class="f_input" /></td>
 		</tr>
 	[/not-logged]
-		<tr>
-			<td class="label">
-				Кому:<span class="impot">*</span>
-			</td>
-			<td>{recipient}</td>
-		</tr>
+		
 		<tr>
 			<td class="label">
 				Тема:<span class="impot">*</span>
@@ -29,7 +24,7 @@
 		</tr>
 		<tr>
 			<td class="label" valign="top">
-				Сообщение:
+				Сообщение (не обязательно):
 			</td>
 			<td><textarea name="message" style="width: 380px; height: 160px" class="f_textarea" /></textarea></td>
 		</tr>
