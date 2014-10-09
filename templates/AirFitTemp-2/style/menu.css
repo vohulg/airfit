@@ -1,0 +1,132 @@
+.left-menu {
+    list-style: none;
+}
+
+.left-menu li{
+   margin-bottom: 10px; 
+}
+.left-menu li.active a div{
+    background: #ffca0f;
+    text-shadow: 0 1px 0 #fff022;
+    border: solid #fff026;
+    border-width: 1px 1px 0 1px;
+}
+.left-menu li.active a:hover div{
+    background: #ffca0f;
+}
+
+.left-menu li a:active {
+    background: red;
+}
+
+.left-menu li a {
+    text-decoration: none;
+    color:#4d4d4d;
+    text-transform: uppercase;
+    font-weight: 700;
+    font: bold 14px/18px "Open Sans", sans-serif;
+    
+}
+.left-menu li a div{    
+    background: #ffdd2e;
+    padding: 10.5px 20px;
+    border: solid #fff650;
+    border-width: 1px 1px 0 1px;
+    box-shadow: 0 1px 1px 0px #B29B23;
+    border-radius: 5px;
+    text-shadow: 0 1px 0 #fff650;
+}
+.left-menu li a:hover div{
+    background: #ffd500;
+}
+
+/*===========================================*/
+.main-menu{
+    float: right;
+      margin: 10px 0px;
+      list-style: none;
+}
+.main-menu li{
+    float: left;
+    margin-left: 10px;    
+}
+
+.main-menu  li.active a div{
+    background: #ffca0f;
+    text-shadow: 0 1px 0 #fff022;
+    border: solid #fff026;
+    border-width: 1px 1px 0 1px;
+}
+.main-menu  li.active a:hover div{
+    background: #ffca0f;
+}
+
+.main-menu  li a:active {
+    background: red;
+}
+
+.main-menu  li a {
+    text-decoration: none;
+    color:#4d4d4d;
+    text-transform: uppercase;
+    font-weight: 700;
+    font: bold 14px/18px "Open Sans", sans-serif;
+}
+.main-menu  li a div{    
+    background: #ffdd2e;
+    padding: 10.5px 20px;
+    border: solid #fff650;
+    border-width: 1px 1px 0 1px;
+    box-shadow: 0 1px 1px 0px #B29B23;
+    border-radius: 5px;
+    text-shadow: 0 1px 0 #fff650;
+}
+.main-menu  li a:hover div{
+    background: #ffd500;
+}
+
+/*======================left menu=======================*/
+
+/*
+
+.left-menu {
+    list-style: none;
+}
+
+.left-menu li.active a div{
+    background: #ffca0f;
+    text-shadow: 0 1px 0 #fff022;
+    border: solid #fff026;
+    border-width: 1px 1px 0 1px;
+}
+
+.left-menu li.active a:hover div{
+    background: red;
+}
+
+.left-menu li {
+    display: list-item;
+    padding: 2px 0 1px;
+    height: 40px;    
+    background:#ffdd2e;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.left-menu a {
+    position: relative;
+    display: block;
+    font: normal 14px/16px UbuntuRegular, Arial, sans-serif;
+//color: #fff;
+   padding: 5px 8px 5px 18px;
+//background:  #6d4595;
+text-decoration: none;
+color: #4d4d4d;
+text-transform: uppercase;
+font-weight: 700;
+font: bold 14px/18px "Open Sans", sans-serif;
+    
+}
+
+*/

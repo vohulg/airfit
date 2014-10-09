@@ -8,6 +8,7 @@
 <link rel="shortcut icon" href="{THEME}/images/favicon.ico" />
 <link media="screen" href="{THEME}/style/styles.css" type="text/css" rel="stylesheet" />
 <link media="screen" href="{THEME}/style/mycss.css" type="text/css" rel="stylesheet" />
+<link media="screen" href="{THEME}/style/menu.css" type="text/css" rel="stylesheet" />
 
 <link media="screen" href="{THEME}/style/engine.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="{THEME}/js/libs.js"></script>
@@ -147,5 +148,7 @@
 
 </div> <!-- main wrapper  -->
 {include file="tcse_mod/call.tpl"}
+
+
 </body>
 </html>
