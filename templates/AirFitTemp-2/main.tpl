@@ -19,6 +19,8 @@
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
 <script type="text/javascript"> VK.init({apiId: 4581679, onlyWidgets: true});</script>
 
+<script type="text/javascript" src="{THEME}/js/jquery.cycle.all.min.js"></script>
+
 </head>
 <body>
     <div id="fb-root"></div>
@@ -50,15 +52,20 @@
     
     
     <div class="vhg-header">   
-        <div class="vh-wrapper-990">
-            <a class="vh-logo" href="/"><img alt="Йога и фитнес в воздухе" src="{THEME}/images/Logotip_2.jpg"  ></a>
+        <div class="vh-wrapper-990">            
+                <a class="vh-logo" href="/"><img alt="Йога и фитнес в воздухе" src="{THEME}/images/Logotip_2.jpg"  ></a>            
             {include file="topmenu.tpl"}
         </div>
     </div> <!-- vh-header -->
     
     <div class="vh-slider-wrapper">  
 
-         <div class="vh-slider-container"> </div> 
+         <div id="vh-slider-container"> 
+            <div id="slider">
+             <img alt="Йога и фитнес в воздухе" src="{THEME}/images/slider-1.jpg"  >      
+              <img alt="Йога и фитнес в воздухе" src="{THEME}/images/slider-1.jpg"  >  
+            </div>
+         </div> 
     </div> <!-- vh-slider -->
     
    

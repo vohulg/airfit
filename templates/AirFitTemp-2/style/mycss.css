@@ -144,7 +144,7 @@ text-shadow: 0 1px 0 #fff650;
     //border: 1px solid red;    
 }
 
-.vh-slider-container {
+#vh-slider-container {
     width:988px;
 	margin:0 auto;
     border: 1px solid #d7d7d7;
@@ -156,7 +156,7 @@ text-shadow: 0 1px 0 #fff650;
     background: #fff;
     box-shadow: 0 0 5px rgba(0,0,0,.1);
     
-    background:url("../images/slider-1.jpg")  no-repeat ;
+    //background:url("../images/slider-1.jpg")  no-repeat ;
     height: 200px;
     
     
