@@ -242,7 +242,7 @@ margin-right: 60px;
     float:right;
     word-spacing: 6px;
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 20px;
     
 }
 
@@ -300,7 +300,7 @@ text-align: center}
     display: list-item;
     padding: 2px 0 1px;
     height: 40px;
-    //background: #ffd500;
+    
    background:#ffdd2e;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -310,19 +310,71 @@ text-align: center}
 .left-menu a {
     position: relative;
 display: block;
-
 font: normal 14px/16px UbuntuRegular, Arial, sans-serif;
-color: #fff;
+//color: #fff;
 padding: 5px 8px 5px 18px;
-//background:  #6d4595;;
-
-
-
-
+//background:  #6d4595;
 text-decoration: none;
 color: #4d4d4d;
 text-transform: uppercase;
 font-weight: 700;
 font: bold 14px/18px "Open Sans", sans-serif;
     
+}
+
+.landpage {
+    width: 320px;
+    float:left;
+    margin-left: 5px;
+   // border: 1px solid red;
+}
+
+.landpage-right {width: 300px;
+    float:right;
+    margin-left: 5px;}
+
+
+.vh-fb{
+    //max-height: 400px;
+    overflow: hidden;
+}
+
+.vh-fb-title {
+font: italic bold 20px/40px "Open Sans", sans-serif;
+text-transform: uppercase;
+position: relative;
+margin-bottom: 5px;
+}
+
+.plus-menu {
+    list-style: none;
+}
+
+.plus-menu ul{
+    margin:0 0 18px 0;
+}
+
+.plus-menu a {
+    text-transform: uppercase;
+font-weight: 700;
+font: bold 14px/18px "Open Sans", sans-serif;
+color: #4d4d4d;
+
+}
+
+.plus-menu li {    
+    padding-left: 30px;
+   padding-bottom: 1px;
+   background: url("../images/yes.png") left 0px no-repeat;
+   margin-bottom: 25px;
+   //height: 25px;
+}
+
+
+.plus-menu div {
+    padding-top: 2px;
+}
+
+.vh-social {
+    float:left;
 }

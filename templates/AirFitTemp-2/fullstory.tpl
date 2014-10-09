@@ -21,10 +21,12 @@
                 
                 
 		[pages]<div class="storenumber">{pages}</div>[/pages]
-	</div>
+                
+                	</div>
         
         
         </div>
+                
 	
 {addcomments}
 {comments}
