@@ -46,11 +46,44 @@ function linkhover_leftmenu()
     } 
 }
 
- 
+function back_call()
+{
+    var name = $("#vh-name-input").val();
+        var phone = $("#vh-phone-input").val();
+        var time = $("#vh-time-input").val();
+        var send = $("#vh-send-input").val();
+        
+        if (name=='' || phone ==  '')
+        {
+            DLEalert("Не все поля заполнены!","Ошибка");
+            return;
+        }
+        
+        $.post(dle_root + "engine/ajax/call.php",
+        {
+          name:name,
+          phone:phone,
+          time:time,
+          call:send
+        },
+        function(data,status){
+            $('.right-call').animate({width: -260}, 250);
+          DLEalert("Info","Data: " + data + "\nStatus: " + status);
+        });   
+    
+}
+
+
 $(document).ready(function(){
     
     slid();
     linkhover_mainmenu();  
-    linkhover_leftmenu();
+    linkhover_leftmenu();    
+    
+    $(".z-call-btn").click(function(){
+      back_call();        
+    });
+   
     
 });
+
