@@ -69,7 +69,12 @@ function back_call()
         function(data,status){
             $('.right-call').animate({width: -260}, 250);
           DLEalert("Info","Data: " + data + "\nStatus: " + status);
-        });   
+        });  
+        
+         $("#vh-name-input").val('');
+        $("#vh-phone-input").val('');
+        $("#vh-time-input").val('');
+         
     
 }
 
