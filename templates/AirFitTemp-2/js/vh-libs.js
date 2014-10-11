@@ -1,3 +1,11 @@
+function testfunc(){
+    $.post(dle_root + "engine/ajax/test.php",{skin:dle_skin},
+        function(data,status){
+              DLEalert("Data: " + data + "\nStatus: " + status, "Info");
+        }); 
+    
+}
+
 function slid()
 {
      $("#slider").cycle({
@@ -87,6 +95,10 @@ $(document).ready(function(){
     
     $(".z-call-btn").click(function(){
       back_call();        
+    });
+    
+    $("#test").click(function(){
+      testfunc();        
     });
    
     

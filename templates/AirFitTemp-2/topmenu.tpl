@@ -6,6 +6,6 @@
 
 	
         <li><a class="vh-menu-item" href="#"><div>О нас</div></a></li>
-	<li><a class="vh-menu-item"  href="#"><div>AjaxPost</div></a></li>
+	<li><a class="vh-menu-item" id ="test" href="#"><div>Test</div></a></li>
         
 </ul>
