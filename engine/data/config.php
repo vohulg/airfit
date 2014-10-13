@@ -6,7 +6,7 @@ $config = array (
 
 'home_title' => 'Airfit - воздушная гимнастика',
 
-'http_home_url' => 'http://airfit/',
+'http_home_url' => 'http://airfit.kz',
 
 'charset' => 'windows-1251',
 

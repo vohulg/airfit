@@ -5,3 +5,58 @@
 3. Фотографии гамака в доме, на улице, на природе, в спортзале
 4. Модуль рассылки
 5.
+
+
+//------------------------ подписка--------------------//
+
+<div>
+    <table border=1  cellspacing=1 cellpadding=0 width=180>
+    <tr height=25><td align=center style="color:"><font size=3><B>ПОДПИСКА</B></font></td></tr>
+    <tr><td bgcolor=#FFFFFF align=center>
+    <form action='/sub2/addemail.php' method='get' target='WRSub' name=REPLIER style="color:">Будь в курсе всех важных событий ! <BR>
+    Email: <input type=text name=email size=20></font>
+    <input type=image border=0 src="/sub2/subscribe.gif" alt='Подпишись!' onClick='gosub();'>
+    </form>
+    </td></tr>
+    </table>
+  </div>
+
+//------------------------------------------------------------//
+
+\\ ---------------------------создание табов------------------------------//
+<html>
+  <head>
+    <script type="text/javascript">
+
+      function activateTab(pageId) {
+          var tabCtrl = document.getElementById('tabCtrl');
+          var pageToActivate = document.getElementById(pageId);
+          for (var i = 0; i < tabCtrl.childNodes.length; i++) {
+              var node = tabCtrl.childNodes[i];
+              if (node.nodeType == 1) { /* Element */
+                  node.style.display = (node == pageToActivate) ? 'block' : 'none';
+              }
+          }
+      }
+
+    </script>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="javascript:activateTab('page1')">Tab 1</a>
+      </li>
+      <li>
+        <a href="javascript:activateTab('page2')">Tab 2</a>
+      </li>
+      ...
+    </ul>
+    <div id="tabCtrl">
+      <div id="page1" style="display: block;">Page 1 uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu</div>
+      <div id="page2" style="display: none;">Page еееееееееееее еееееееееееееее 2</div>
+      ...
+    </div>
+  </body>
+</html>
+
+\\----------------------------------------------------------------------------//

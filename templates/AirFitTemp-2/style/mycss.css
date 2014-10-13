@@ -208,13 +208,21 @@ margin-right: 60px;
 }
 
 .vh-sidebar {width: 176px;
-margin: 20px 0px}
+margin: 20px 0px;
+}
+
+.vh-sidebar-in
+{
+    background: #f6f6f6 no-repeat center;
+    padding: 5px;
+    border-radius: 5px;
+}
 
 .vh-buy {background: #6900a1!important;
 border-radius: 5px;
 padding: 10px 0px;
 color:white;
-height: 50px;
+height: 25px;
 font-size: 18px;
 text-align: center}
 
@@ -300,4 +308,6 @@ color: #4d4d4d;
     float:left;
 }
 
-.z-call-btn {}
+#vh-email-sub {
+    margin:10px 0px;
+}

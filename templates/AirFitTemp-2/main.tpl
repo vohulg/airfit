@@ -22,6 +22,9 @@
 
 <script type="text/javascript" src="{THEME}/js/jquery.cycle.all.min.js"></script>
 
+
+
+
 </head>
 <body>
     <div id="fb-root"></div>
@@ -31,7 +34,8 @@
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+</script>
 {AJAX}
 <div id="vh-main-wrapper">
     <div class="vh-top-line"> 
@@ -56,7 +60,9 @@
         <div class="vh-wrapper-990">            
                 <a class="vh-logo" href="/"><img alt="Йога и фитнес в воздухе" src="{THEME}/images/Logotip_2.jpg"  ></a>            
             {include file="topmenu.tpl"}
+           
         </div>
+        
     </div> <!-- vh-header -->
     
     <div class="vh-slider-wrapper">  
@@ -90,9 +96,13 @@
                     </div> 
                     <div class="vh-fb landpage-right"> 
                         <div class="vh-fb-title">отзывы о гамаках </div>
+                                           
                         <div class="fb-comments" data-href="http://airfit.kz" data-width="300" data-numposts="2" data-colorscheme="light"></div>
                         
                     </div>
+                        
+                        
+                   
                      <div class="clear"> </div>   
                         
                         [/aviable]

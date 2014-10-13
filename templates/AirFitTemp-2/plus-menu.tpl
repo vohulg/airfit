@@ -1,10 +1,10 @@
 <ul class="plus-menu " >
 
-	<li><a href="/index.php?do=feedback"><div>Терапия</div></a></li>
+	
     <li><a href="/index.php?do=feedback"><div>Мягкое Развитие гибкости суставов и позвоночника</div></a></li>
 	<li><a href="/main/"><div>Разгрузка позвоночника от перенапряжения</div></a></li>
 	<li><a href="#"><div>Выполнения Перевернутых поз без давления на неактивные части тела</div></a></li>	
         <li><a href="#"><div>Использование в качестве турника, брусьев, колец для развития силы мышц и сухожилий</div></a></li>
-	
+	<li><a href="/index.php?do=feedback"><div>Терапия</div></a></li>
         
 </ul>
