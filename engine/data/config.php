@@ -6,7 +6,7 @@ $config = array (
 
 'home_title' => 'Airfit - воздушная гимнастика',
 
-'http_home_url' => 'http://airfit.kz',
+'http_home_url' => 'http://airfit.kz/',
 
 'charset' => 'windows-1251',
 
@@ -32,7 +32,7 @@ $config = array (
 
 'allow_admin_wysiwyg' => '2',
 
-'allow_static_wysiwyg' => '0',
+'allow_static_wysiwyg' => '2',
 
 'allow_complaint_mail' => '0',
 

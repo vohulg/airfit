@@ -96,6 +96,9 @@ function addsubcriber(){
         function(data,status){
              if (data == 'ok' && status == 'success')
                 DLEalert(" Вы успешно подписаны на новости сайта airfit.kz ", "Info");
+            if (data == 'error email' && status == 'success')
+                DLEalert(" Некорректный почтовый адрес ", "Info");
+            
            $("#vh-email-sub").val('E-mail');  
         }); 
     

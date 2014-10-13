@@ -66,13 +66,13 @@ if($_POST['send'] == 'send')
                 $stop = 1;       
         
        if ($stop == 1)       
-           echo " почтовый адрес указан не верно";
+           echo "error email";
        
        else
        {
         $db->query("INSERT INTO " . USERPREFIX . "_vhsubscriber (email) values ('$email')");
         $db->free();
-        echo $email." успешно добавлен";
+        echo "ok";
        }
         
 }

@@ -286,6 +286,14 @@ if( $action == "options" or $action == '' ) {
 											'image' => "admin_logs.png", 
 											'access' => "admin" 
 								),
+            
+                                                                array(
+                                                                    'name'      => 'Рассылка',
+                                                                    'url'          => "$PHP_SELF?mod=sub",
+                                                                    'descr'      => 'Рассылка новостей',
+                                                                    'image'     => "sub.png",
+                                                                    'access'     => "1",
+                                                                    ),
 	);
 
 	

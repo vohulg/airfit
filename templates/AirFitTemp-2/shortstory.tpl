@@ -1,6 +1,9 @@
-<div class="base shortstory">
-	<div class="dpad">
-		<h3 class="btl">[full-link]{title}[/full-link]</h3>
+ [xfgiven_shortimg]<div class="vh-short-img"><img  style="width: 100px" src="[xfvalue_shortimg]" ></div>[/xfgiven_shortimg]          
+
+
+<div class="base shortstory">   
+	<div class="dpad">            
+            <h3 class="btl">[full-link]{title}[/full-link]</h3>
 		
 		<div class="maincont">
 			{short-story}

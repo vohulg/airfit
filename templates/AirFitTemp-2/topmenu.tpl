@@ -1,7 +1,7 @@
 <ul class="main-menu" >
 
-	<li><a class="vh-menu-item" href="http://airfit.kz/index.php?do=feedback"><div>dxgsdg</div></a></li>
-	<li><a class="vh-menu-item" href="http://airfit.kz/static.html"><div>Статичк</div></a></li>
+    <li><a class="vh-menu-item" href="/teach"><div>Обучение</div></a></li>
+	<li><a class="vh-menu-item" href="/main"><div>Информация</div></a></li>
 	<li><a class="vh-menu-item" href="#"><div>Напишите нам</div></a></li>
 
 	

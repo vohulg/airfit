@@ -311,3 +311,13 @@ color: #4d4d4d;
 #vh-email-sub {
     margin:10px 0px;
 }
+
+.vh-short-img {
+    width: 120px;
+    float:left;
+}
+
+.shortstory {
+    float: left;
+    width:600px;
+}
