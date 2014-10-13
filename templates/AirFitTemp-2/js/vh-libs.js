@@ -1,10 +1,4 @@
-function testfunc(){
-    $.post(dle_root + "engine/ajax/test.php",{skin:dle_skin},
-        function(data,status){
-              DLEalert("Data: " + data + "\nStatus: " + status, "Info");
-        }); 
-    
-}
+
 
 function slid()
 {
@@ -86,6 +80,18 @@ function back_call()
     
 }
 
+function addsubcriber(){
+    
+    var email = $("#subemail").val();
+    var send = $("#subsend").val();
+    
+    
+    $.post(dle_root + "engine/ajax/addsubscriber.php",{email:email, send:send, skin:dle_skin},
+        function(data,status){
+              DLEalert("Data: " + data + "\nStatus: " + status, "Info");
+        }); 
+    
+}
 
 $(document).ready(function(){
     
@@ -97,8 +103,8 @@ $(document).ready(function(){
       back_call();        
     });
     
-    $("#test").click(function(){
-      testfunc();        
+    $("#sendsubscriber").click(function(){
+      addsubcriber();        
     });
    
     
