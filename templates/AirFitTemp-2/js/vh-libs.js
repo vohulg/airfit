@@ -1,3 +1,5 @@
+
+
 function slid()
 {
      $("#slider").cycle({
@@ -78,27 +80,30 @@ function back_call()
     
 }
 
-function subscribe(){
-    var email = $("#vh-email-sub").val();
+
+function addsubcriber(){
+    
+     var email = $("#vh-email-sub").val();
     var send = $("#vh-send-sub").val();
      if (email=='' || email == 'E-mail')
         {
             DLEalert("Не заполнено поле e-mail!","Ошибка");
             return;
         }
-       $.post(dle_root + "engine/ajax/sub.php",
-        {
-          email:email,
-          send:send
-        },
+    
+    
+    $.post(dle_root + "engine/ajax/addsubscriber.php",{email:email, send:send, skin:dle_skin},
         function(data,status){
-            if (data == 'ok' && status == 'success')
+             if (data == 'ok' && status == 'success')
                 DLEalert(" Вы успешно подписаны на новости сайта airfit.kz ", "Info");
            $("#vh-email-sub").val('E-mail');  
-        });   
-        
-    //DLEalert("yes",'ok');
+        }); 
+    
+
 }
+
+
+
 
 $(document).ready(function(){
     
@@ -106,13 +111,15 @@ $(document).ready(function(){
     linkhover_mainmenu();  
     linkhover_leftmenu();    
     
+
     $(".z-call-btn").click(function(){ back_call();   });
     
-     $("#vh-but-sub").click(function(){ subscribe(); });    
+     $("#vh-but-sub").click(function(){  addsubcriber(); });    
      
     $("#vh-email-sub").click(function(){ $("#vh-email-sub").val('');   });
     
        
+
    
     
 });
