@@ -22,21 +22,40 @@ if( ! $user_group[$member_id['user_group']]['admin_blockip'] ) {
 	msg( "error", $lang['index_denied'], $lang['index_denied'] );
 }
 
-if( isset( $_POST['email[]'] ))
-    echo $_POST['email[]'];
-
-
 echoheader( "", "" );
+
+if( isset( $_POST['email-2'] ))
+    echo $_POST['email-2'];
 
 echo <<<HTML
 <h1> Рассылка </h1>
 <form action="" method="post">
-  <input type="checkbox" name="email[]" value="Bike"> I have a bike<br>
-  <input type="checkbox" name="email[]" value="Car" checked> I have a car<br>
-  <input type="submit" value="Submit">
-</form>
-
 HTML;
+
+   $db->query("SELECT id, email FROM " . USERPREFIX . "_vhsubscriber");
+   while ( $row = $db->get_row() )
+   {
+       foreach ( $row as $key => $value ) 
+       {
+          echo '<input type="checkbox" name="" checked value="'.$value.'">'.$value. '<br>';
+           
+       }
+   }
+   
+    $db->free();
+  
+  
+          
+          
+echo <<<HTML
+<input type="submit" value="Submit">
+</form>
+HTML;
+
+
+
+
+
 
 
 
