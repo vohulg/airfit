@@ -28,15 +28,7 @@ if( isset( $_POST['email[]'] ))
 
 echoheader( "", "" );
 
-echo <<<HTML
-<h1> Рассылка </h1>
-<form action="" method="post">
-  <input type="checkbox" name="email[]" value="Bike"> I have a bike<br>
-  <input type="checkbox" name="email[]" value="Car" checked> I have a car<br>
-  <input type="submit" value="Submit">
-</form>
 
-HTML;
 
 
 
