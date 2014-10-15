@@ -29,18 +29,19 @@ if( isset( $_POST['email-2'] ))
     echo $_POST['email-2'];
 
 echo <<<HTML
-<h1> Рассылка </h1>
-<form action="" method="post">
+<h2> Рассылка </h2>
+
 HTML;
 
    $db->query("SELECT id, email FROM " . USERPREFIX . "_vhsubscriber");
+   
+   
+     
    while ( $row = $db->get_row() )
-   {
-       foreach ( $row as $key => $value ) 
-       {
-          echo '<input type="checkbox" name="" checked value="'.$value.'">'.$value. '<br>';
-           
-       }
+   {      
+          //var_dump($row);
+           echo '<input type="checkbox" class="vh-sub-email" name="email['.$row['id'].']" checked value="'.$row['id'].'"'.$row['email'].'">'.$row['email']. '<br>';      
+       
    }
    
     $db->free();
@@ -49,8 +50,33 @@ HTML;
           
           
 echo <<<HTML
-<input type="submit" value="Submit">
-</form>
+<input type="submit" id="vh-sub-submit" value="Submit">
+
+    <script type="text/javascript"> 
+    
+    function post_email_list()
+    {       
+        var arr = new Array();
+        $(":checked").each(function () {
+                
+              arr.push($(this).val());        
+         }); 
+    
+    
+    
+    
+    
+    }
+    
+    
+    $(document).ready(function(){
+    
+     $("#vh-sub-submit").click(function(){ post_email_list()  });
+    
+    
+    });
+    
+    </script>
 HTML;
 
 
