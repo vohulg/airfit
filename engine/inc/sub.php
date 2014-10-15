@@ -48,7 +48,7 @@ HTML;
           
           
 echo <<<HTML
-<input type="submit" value="Submit">
+<input type="submit" class="" value="Submit">
 </form>
 HTML;
 
