@@ -60,7 +60,7 @@ if($_POST['send'] == 'send')
 {
     $stop = 0;
     $email = strip_tags(stripslashes($_POST['email']));
-        $email = $db->safesql($email);
+    $email = $db->safesql($email);
        
         if( empty($email) OR dle_strlen($email, $config['charset']) > 50 OR @count(explode("@", $email)) != 2)
                 $stop = 1;       
